@@ -9,7 +9,7 @@ class Index extends Controller{
      require_once 'models/Index_model.php';
      $this -> model = new Index_model();
 
-      //print_r($params);
+
   
      $action=$params;
      if(isset($params[1])) $action = ucfirst($params[1]);
